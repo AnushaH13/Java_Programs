@@ -1,0 +1,14 @@
+class m4 
+{
+	public static void test(int a,int b,int c)
+	{
+		System.out.println(a+","+b+","+c);
+	}
+		
+	public static void main(String[] args) 
+	{
+		test(100,200,500);
+		test(500,800,900);
+		test(1000,2000,5000);
+	}
+}

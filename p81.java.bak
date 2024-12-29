@@ -1,0 +1,9 @@
+class p81 
+{
+	public static void main(String[] args) 
+	{
+		byte a=100;
+		int b=a;
+	
+	}
+}

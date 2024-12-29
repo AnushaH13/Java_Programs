@@ -1,0 +1,17 @@
+class m17 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("from main-1");
+		m17.main();
+		m17.main(90);
+	}
+	static void main()
+	{
+		System.out.println("from main-2");
+	}
+	 static void main(int a)
+	{
+		System.out.println("from main-3");
+	}
+}
